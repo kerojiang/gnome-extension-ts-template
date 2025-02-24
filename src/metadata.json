@@ -1,0 +1,8 @@
+{
+    "name": "hello",
+    "description": "hello template",
+    "uuid": "hello@xxxx.com",
+    "settings-schema": "gnome-shell.xxx.hello",
+    "shell-version": ["47"],
+    "url": "https://github.com/xxx/hello"
+}

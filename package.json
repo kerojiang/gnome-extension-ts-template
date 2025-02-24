@@ -1,0 +1,28 @@
+{
+    "name": "hello",
+    "version": "1.0.0",
+    "description": "hello template",
+    "license": "GPL-2.0",
+    "author": "xxxx@xxx.com",
+    "type": "module",
+    "main": "dist/extension.js",
+    "scripts": {
+        "clear": "rm -rf dist",
+        "build:app": "node esbuild.js",
+        "build": "npm run clear && npm run build:app",
+        "validate": "tsc --noEmit"
+    },
+    "devDependencies": {
+        "@girs/gjs": "^4.0.0-beta.21",
+        "@girs/glib-2.0": "^2.83.3-4.0.0-beta.21",
+        "@girs/gnome-shell": "^47.0.2",
+        "@girs/gobject-2.0": "^2.83.3-4.0.0-beta.21",
+        "@girs/soup-3.0": "^3.6.4-4.0.0-beta.21",
+        "@girs/st-15": "^15.0.0-4.0.0-beta.21",
+        "@typescript-eslint/eslint-plugin": "^7.18.0",
+        "@typescript-eslint/parser": "^7.18.0",
+        "adm-zip": "^0.5.16",
+        "esbuild": "^0.25.0",
+        "eslint-config-airbnb-typescript": "^18.0.0"
+    }
+}
